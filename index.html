@@ -1,145 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <!--Main container-->
-    <div class="main-container">
-        <!--Main content section-->
-    <div class="Main-content-section"> 
-        <!--Abouy me section-->
-         <div class="about-me-section">
-            <h2 class="about-me-profession" > Project manager</h2>
-            <h1 class="about-me-name" >Миколай Компанець</h1> 
-            <p class="about-me-description "> Геніальність може виявитися лише скороминучим шансом. Тільки робота і воля можуть дати їй життя і перетворити її на славу</p>
-        </div>
-       
-            <!--My project section-->
-            <div class="main-project-section">
-                <h3 class="main-content-title"> Проекти</h3>
-                    <ol class="main-project-list">
-                             <li class="my-project-items">
-                               <span class="my-project-text"> 
-                                   <a href="https://drive.google.com/file/d/1S24BGFq5wE09M8cOF3-BEbRS4TbVUfsE/view?usp=sharing/"class="main-project-link"> Камера фарбувальнa з електричним обігрівом</a> 
-                               ...
-                                 <span class="main-project-bracket">[</span> Львів, 2021р. <span class="main-project-bracket">] </span>
-                                </span>
-                            </li>
-                            <li class="my-project-items">
-                                <span class="my-project-text"> 
-                                 <a href="https://drive.google.com/file/d/1jrCEbHcXoWP803yq79zT0-hurekbljN5/view?usp=sharing/"class="main-project-link">Камера фарбувальнa з водяним калорифером</a> 
-                                ...
-                                 <span class="main-project-bracket">[</span> Житомир, 2020р. <span class="main-project-bracket">]</span>
-                            </li>
-                        <li class="my-project-items">
-                            <span class="my-project-text"> 
-                            <a href=" https://drive.google.com/file/d/11rFiiXhR469NnuzgxuAkG4nEhNXOBClS/view?usp=sharing/"class="main-project-link">Камера дробоструменекої обробки</a> 
-                            ..............................
-                            <span class="main-project-bracket">[</span> Мапіуполь, 2020р. <span class="main-project-bracket">]</span>
-                         </li>
+    <header>
+        <nav>
+            <a href="https://google.com" target="blink">Web Studio </a>
+            <ul>
+                <li><a href="/Студия">Студия</a></li>
+                <li><a href="/Портфолио">Портфолио</a></li>
+                <li><a href="/Контакты">Контакты</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li><a href="mailto=https://info@devstudio.com" target="blank" title="info@devstudio.com">
+                    info@devstudio.com</a></li>
+            <li><a href="tel=+380961111111">+380961111111</a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <!-- slogan -->
+            <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА </h1>
+            <button type="button">Заказать услугу</button>
+        </section>
+        <!-- about us section -->
+        <section>
+            <h2>Наши преимущества</h2>
+            <ul>
+                <li>
+                    <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li>
+                    <h3>ПУНКТУАЛЬНОСТЬ</h3>
+                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li>
+                    <h3>ПЛАНИРОВАНИЕ</h3>
+                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li>
+                    <h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+        </section>
+        <!--what we doing-->
+        <section>
+            <h2> Чем мы занимаемся</h2>
+            <ul>
+                <li><img src="image/img.jpg" alt="создание верстки"></li>
+                <li><img src="image/img1.jpg" alt="разработка мобильных приложений"></li>
+                <li><img src="image/img2.jpg" alt="веб дизайн"></li>
+            </ul>
+        </section>
+        <section>
+            <!--our teeam-->
+            <h2> Наша команда</h2>
+            <ul>
+                <li><img src="image/photo1.jpg" alt="Игорь Демяненко">
+                    <h3>Игорь Демяненко</h3>
+                    <p>Product Designer</p>
+                </li>
+                <li><img src="image/photo2.jpg" alt="Ольга Репина">
+                    <h3>Ольга Репина</h3>
+                    <p>Frontend Developer</p>
+                </li>
+                <li><img src="image/photo3.jpg" alt="Николай Тарасов">
+                    <h3>Николай Тарасов</h3>
+                    <p>Marketing</p>
+                </li>
+                <li><img src="image/photo4.jpg" alt="Михаил Ермаков">
+                    <h3>Михаил Ермаков</h3>
+                    <p>Ul Designer</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <a href="https://google.com" target="blink">Web Studio </a>
+        <address>
+            <ul>
+                <li><a href="https://goo.gl/maps/ie4uHoUFQD95xDHH9">г. Киев, пр-т Леси Украинки, 26 </a></li>
+                <li><a href="info@example.com">info@example.com </a></li>
+                <li><a href="tel=+38099111111">+38 099 111 111</a></li>
+            </ul>
+        </address>
 
-                     </ol>
-             
-             </div>
-        <!--My work experience-->
-        <div class="My-work-experience">
-            <h3 class="main-content-title"> Досвід роботи</h3>
-           
-                <!--Company 3-->
-        <div class="My-work-experience-company-block">
-                <h4 class="My-work-experience-position">Начальник <span class="My-work-experience-time">виробництва</span> </h4>
-                <p class="my-work-expirion-type">Квітень 2018 - до тепер   <span class="my-work-expirion-divider">|</span>    ТОВ Техсервіс ВЕКО і партнер ГмбХ</p>
-                <ul class="My-work-experience-duties">
-                    <li class="My-work-experience-duty"> Організація і управління виробничими процесами (цех металообробки)</li>
-                    <li class="My-work-experience-duty"> Планування і контроль виробництва, планування завантаження цеху, графіків виробництва продукції.</li>
-                    <li class="My-work-experience-duty"> Забезпечення технологічних потреб цеху, технології виробництва і якості продукції</li>
-                    <li class="My-work-experience-duty"> Робота з персоналом (в підпорядкуванні до 40 осіб), кадрова політика, навчання, розподіл персоналу, постановка і контроль виконання завдань</li>
-                 </ul>
-        </div>
-            <!--Company 2-->
-         <div> 
-                <h4>Інженер КВП і <span class="My-work-experience-time">автоматизаії</span></h4>
-                <p class="my-work-expirion-type">Вересень 2015 - Квітень 2018   <span class="my-work-expirion-divider">|</span>   ТОВ Техсервіс ВЕКО і партнер ГмбХ</p>
-                <ulclass="My-work-experience-duties"></ulclass>
-                    <li class="My-work-experience-duty"> Досвід в розробці, проектуванні електричних принципових, монтажних схем і схем підключення.</li>
-                    <li class="My-work-experience-duty"> Досвід підбору, пошуку і проведення закупівель комплектуючих.</li>
-                    <li class="My-work-experience-duty"> Досвід в монтажі електричних пультів і шаф управління згідно зі схемою.</li>
-                    <li class="My-work-experience-duty"> Досвід пуско-налагодження і здачі об'єкта "під ключ"</li>
-                 </ul>
-            </div>
-            
-                 <!--Company 1-->
-            <div>
-             <h4>Слюсар КВП і  <span class="My-work-experience-time">автоматизаії</span> </h4>
-             <p class="my-work-expirion-type">Січень 2013 - Листопад 2014  <span class="my-work-expirion-divider">|</span>   ТОВ "УКРПЛАСТИК"</p>
-             <ul class="My-work-experience-duties"></ul>
-                <li class="My-work-experience-duty">Виявлення та усунення дефектів у роботі приладів, виготовлення лабораторних приладів. </li> 
-                <li class="My-work-experience-duty"> Ремонт, регулювання, випробування, юстирування, монтаж, налагодження і здавання складних тепловимірювальних, оптико-механічних, електродинамічних, рахункових, автоматичних і інших приладів з установкою автоматичного регулювання з підсумувальним механізмом та дистанційною передачею показань. </li>
-                <li class="My-work-experience-duty">Креслення шкал, сіток і складання складних ескізів.</li> 
-              </ul>
-            </div>
-        </div>
-        
-            <!--My edication section-->
-         <div class="My-edication-section">
-                        <h3 class="main-content-title">Освіта</h3>
-                
-                    <h4 class="My-edication-time">Національний Університет біоресурсів і природокористування України</h4>
-                    <h4 class="My-edication-type"> Автоматизовані системи управління технологічними процесами (АСУ ТП) </h4>
-                    <p class="my-edication-year"> Вересень 2008 - березень 2013 <span class="my-edication-divider">|</span> Україна</p>
-               
-        
-        </div>
-        <aside>
-    </div >
-     <!--sidebar section-->
-     <aside class="sidebar-section">
-        <img class="my-photo" src="img/18595445_1849489255316173_7170638624951623040_o.jpg" alt="my photo">
-    <!--Contacts-->
-    <div class="contact-section">
-        <h3 class="sidebar-title">Контакти</h3>
-        <div>
-           <span class="contact-section-type">C:</span> 
-            <a class="contact-section-link" href=" tel:+380636504496 ">+380636504496"</a> 
-        </div>
-        <div>
-           <span class="contact-section-type">E:</span> 
-            <a class="contact-section-link" href="mailto:komp5232@gmail.com">komp5232@gmail.com</a> 
-        </div>
-    </div>
-    <!--tech skills section-->
-    <div class="tech-scill-section">
-        <h3 class="sidebar-title">  Tech Skills</h3>
-        <ul class="tech-scill-list">
-        <li class="tech-skill-items"> <span class="tech-skill-items-text">Впевнений користувач ПК</span> </li> 
-        <li class="tech-skill-items"> <span class="tech-skill-items-text">Водійські права категорії В</span> </li>
-        <li class="tech-skill-items"> <span class="tech-skill-items-text">Рівень англійської мови - нижче середнього</span> </li>
-       </ul>
-       
-    </div>
-    <div>
-        <!--soft scills section-->
-    <div class="tech-scill-section">
-        <h3 class="sidebar-title"> Soft Skills</h3>
-        <ul class="tech-scill-list" >
-            <li class="tech-skill-items"><span class="tech-skill-items-text">Відповідальність </span></li> 
-            <li class="tech-skill-items"><span class="tech-skill-items-text">Пунктуальність </span></li>
-            <li class="tech-skill-items"><span class="tech-skill-items-text">Комунікабельність </span></li>
-            <li class="tech-skill-items"><span class="tech-skill-items-text">Вміння працювати в команді </span></li>
-       </ul>
-    </div>
-
-    
-     </aside>
-    </div>
+    </footer>
 </body>
+
 </html>
