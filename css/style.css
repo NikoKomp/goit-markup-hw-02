@@ -3,8 +3,17 @@
   --button-color: #2196f3;
   --text-primary: #212121;
   --background-color: #e5e5e5;
+
+  --primary-fonts: Roboto;
+  --secondary-fonts: Raleway;
 }
 ul,
 ol {
   list-style: none;
+}
+body {
+  font-family: var(--primary-fonts);
+}
+a {
+  text-decoration: none;
 }

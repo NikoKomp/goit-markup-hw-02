@@ -5,96 +5,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<link rel="stylesheet" href="https://github.com/NikoKomp/goit-markup-hw-02/blob/main/css/style.css" type="text/css" >
+    <title>Главная</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="https://google.com" target="blink">Web Studio </a>
-            <ul>
-                <li><a href="/Студия">Студия</a></li>
-                <li><a href="/Портфолио">Портфолио</a></li>
-                <li><a href="/Контакты">Контакты</a></li>
+    <header class="header">
+        <div class="nav-bar">
+        <nav class="nav-box" >
+            <a href="https://google.com" class="logo-image" target="blink">Web Studio </a>
+            <ul class="nav-links">
+                <li class="nav-items"><a href="/Студия" class="nav-link">Студия</a></li>
+                <li class="nav-items"><a href="/Портфолио class=" class="nav-link">Портфолио</a></li>
+                <li class="nav-items"><a href="/Контакты class=" class="nav-link">Контакты</a></li>
             </ul>
         </nav>
+        </div>
+        <div class="link-box">
         <ul>
-            <li><a href="mailto=https://info@devstudio.com" target="blank" title="info@devstudio.com">
+            <li><a href="mailto=https://info@devstudio.com" class="link-box-mail" target="blank" title="info@devstudio.com">
                     info@devstudio.com</a></li>
-            <li><a href="tel=+380961111111">+380961111111</a></li>
+            <li><a href="tel=+380961111111" class="link-box-phone" >+380961111111</a></li>
         </ul>
+        </div>
     </header>
     <main>
         <section>
             <!-- slogan -->
-            <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА </h1>
-            <button type="button">Заказать услугу</button>
+            <div class="hero-box">
+            <h1 class="supheader">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА </h1>
+            <button type="button" class="order">Заказать услугу</button>
+            </div>
         </section>
-        <!-- about us section -->
+        <!-- Our advantage -->
         <section>
-            <h2>Наши преимущества</h2>
+            <div class="adv">
+            <h2 class="adv-text">Наши преимущества</h2>
             <ul>
                 <li>
-                    <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="adv-head">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                    <p class="adv-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <h3>ПУНКТУАЛЬНОСТЬ</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="adv-head">ПУНКТУАЛЬНОСТЬ</h3>
+                    <p class="adv-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <h3>ПЛАНИРОВАНИЕ</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="adv-head">ПЛАНИРОВАНИЕ</h3>
+                    <p class="adv-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="adv-head">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                    <p class="adv-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--what we doing-->
         <section>
-            <h2> Чем мы занимаемся</h2>
-            <ul>
-                <li><img src="image/img.jpg" alt="создание верстки"></li>
-                <li><img src="image/img1.jpg" alt="разработка мобильных приложений"></li>
-                <li><img src="image/img2.jpg" alt="веб дизайн"></li>
+            <div>
+            <h2 class="doing"> Чем мы занимаемся</h2>
+            <ul class="d-list">
+                <li><img src="image/img.jpg" class="d-text" alt="создание верстки"></li>
+                <li><img src="image/img1.jpg" class="d-text" alt="разработка мобильных приложений"></li>
+                <li><img src="image/img2.jpg" class="d-text" alt="веб дизайн"></li>
             </ul>
+            </div>
         </section>
         <section>
             <!--our teeam-->
-            <h2> Наша команда</h2>
-            <ul>
-                <li><img src="image/photo1.jpg" alt="Игорь Демяненко">
-                    <h3>Игорь Демяненко</h3>
-                    <p>Product Designer</p>
+        <div class="our-team">
+            <h2 class="team"> Наша команда</h2>
+            <ul class="team list">
+                <li ><img src="image/photo1.jpg" class="t-photo" alt="Игорь Демяненко">
+                    <h3 class="t-name">Игорь Демяненко</h3>
+                    <p class="t-position">Product Designer</p>
                 </li>
-                <li><img src="image/photo2.jpg" alt="Ольга Репина">
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                <li><img src="image/photo2.jpg" class="t-photo" alt="Ольга Репина">
+                    <h3 class="t-name">Ольга Репина</h3>
+                    <p class="t-position">Frontend Developer</p>
                 </li>
-                <li><img src="image/photo3.jpg" alt="Николай Тарасов">
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                <li><img src="image/photo3.jpg" class="t-photo" alt="Николай Тарасов">
+                    <h3 class="t-name">Николай Тарасов</h3>
+                    <p class="t-position">Marketing</p>
                 </li>
-                <li><img src="image/photo4.jpg" alt="Михаил Ермаков">
-                    <h3>Михаил Ермаков</h3>
-                    <p>Ul Designer</p>
+                <li><img src="image/photo4.jpg" class="t-photo" alt="Михаил Ермаков">
+                    <h3 class="t-name">Михаил Ермаков</h3>
+                    <p class="t-position">Ul Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer>
-        <a href="https://google.com" target="blink">Web Studio </a>
+        <div class="contact-section">
+        <a href="https://google.com" class="logo-image" target="blink">Web Studio </a>
         <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/ie4uHoUFQD95xDHH9">г. Киев, пр-т Леси Украинки, 26 </a></li>
-                <li><a href="info@example.com">info@example.com </a></li>
-                <li><a href="tel=+38099111111">+38 099 111 111</a></li>
+            <ul clas>
+                <li><a href="https://goo.gl/maps/ie4uHoUFQD95xDHH9" class="map-link">г. Киев, пр-т Леси Украинки, 26 </a></li>
+                <li><a href="info@example.com" class="info-link">info@example.com </a></li>
+                <li><a href="tel=+38099111111" class="link-box-phone">+38 099 111 111</a></li>
             </ul>
         </address>
-
+        </div>
     </footer>
 </body>
 
