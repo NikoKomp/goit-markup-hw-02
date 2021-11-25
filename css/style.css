@@ -1,0 +1,9 @@
+:root {
+    --brand-color: #2F303A;
+    --button-color: #2196F3;
+    --text-primary: #212121;
+
+}
+ul, ol {
+    list-style: none;
+}
