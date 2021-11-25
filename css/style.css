@@ -169,34 +169,143 @@ text-align: center;
 width: 1170px;
 height: 101px;
 left: 215px;
+right: 215px ;
 top: 774px;
 }
-.adv-head{
+.adv-text-head{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+white-space: nowrap;
+}
+.adv-head1{
   color: #212121;
   font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 700;
 line-height: 16px;
-letter-spacing: 0.03em;
-text-align: left;
-}
-.adv-block{
-  position: absolute;
-width: 1170px;
-height: 101px;
-left: 215px;
-top: 774px;
-}
-.adv-text{
-  color: #757575;
-  font-family: Roboto;
-font-size: 14px;
+text-align: left;position: absolute;
+width: 270px;
+height: 16px;
+left: 50px;
+top:80px;
+font-family: Roboto;
 font-style: normal;
-font-weight: 400;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.adv-text1{
+  position: absolute;
+width: 270px;
+height: 75px;
+left: 50px;
+top: 100px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-text-align: left;
+
+color: #757575;
+
+}
+.adv-head2{
+  position: absolute;
+width: 270px;
+height: 16px;
+left: 515px;
+top: 80px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.adv-text2{
+  position: absolute;
+width: 270px;
+height: 75px;
+left: 515px;
+top: 80px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.adv-head3{
+  position: absolute;
+width: 270px;
+height: 16px;
+left: 815px;
+top: 80px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.adv-text3{
+  position: absolute;
+width: 270px;
+height: 75px;
+left: 815px;
+top: 80px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.adv-head4{
+position: absolute;
+width: 270px;
+height: 16px;
+left: 1115px;
+top: 80px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.adv-text4{
+  position: absolute;
+width: 270px;
+height: 75px;
+left: 1115px;
+top: 80px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
 }
 .doing{
 position: absolute;
@@ -253,14 +362,21 @@ letter-spacing: 0.03em;
 text-align: center;
 }
 .team{
-  color: #212121;
-  font-family: Roboto;
-font-size: 36px;
+  position: absolute;
+width: 264px;
+height: 42px;
+left: 668px;
+top: 1543px;
+font-family: Roboto;
 font-style: normal;
-font-weight: 700;
+font-weight: bold;
+font-size: 36px;
 line-height: 42px;
-letter-spacing: 0.03em;
 text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
 }
 .our-team{
   background-color:  #F5F4FA;
