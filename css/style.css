@@ -61,8 +61,7 @@ body {
 }
 .button-first {
   cursor: pointer;
-  background-color: var(--secondar-button-color);
-  width: 200px;
+  background-color: var(--button-color)
   height: 50px;
 }
 .button-first-text {
