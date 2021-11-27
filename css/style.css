@@ -2,10 +2,8 @@
   --brand-color: #2f303a;
   --button-color: #2196f3;
   --text-primary: #212121;
-  --background-color: #e5e5e5;
 
   --primary-fonts: Roboto;
-  --secondary-fonts: Raleway;
 }
 ul,
 ol {
@@ -28,8 +26,11 @@ a {
   color: palevioletred;
 }
 body {
-  font-family: var(--primary-fonts);
-  font-family: var(--secondary-fonts);
+  background-color: #e5e5e5;
+  font-family: var(--primary-fonts), sans-serif;
+  text-emphasis-color: var(--text-primary);
+  font-size: 14px;
+  letter-spacing: 0.3;
   text-emphasis-color: var(--text-primary);
 }
 
@@ -42,13 +43,13 @@ body {
   color: #2196f3;
 }
 .nav-link {
-  color: #212121;
+  color: var(--text-primary);
 }
 .nav-link1 {
   color: #2196f3;
 }
 .hero-box {
-  background: #2f303a;
+  background: var(--brand-color);
 }
 .sup-header {
   color: #ffffff;
