@@ -2,7 +2,9 @@
   --brand-color: #2f303a;
   --button-color: #2196f3;
   --text-primary: #212121;
-
+  --sup-head-color: #ffffff;
+  --text-secondary-color: #757575;
+  --secondar-button-color: #f5f4fa;
   --primary-fonts: Roboto;
 }
 ul,
@@ -28,10 +30,9 @@ a {
 body {
   background-color: #e5e5e5;
   font-family: var(--primary-fonts), sans-serif;
-  text-emphasis-color: var(--text-primary);
   font-size: 14px;
   letter-spacing: 0.3;
-  text-emphasis-color: var(--text-primary);
+  color: var(--text-primary);
 }
 
 .logo-image {
@@ -40,36 +41,38 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #2196f3;
+  color: var(--button-color);
 }
 .nav-link {
   color: var(--text-primary);
+  font-weight: 500;
+  line-height: 16px;
 }
 .nav-link1 {
-  color: #2196f3;
+  color: var(--button-color);
+  font-weight: 500;
+  line-height: 16px;
 }
 .hero-box {
   background: var(--brand-color);
 }
 .sup-header {
-  color: #ffffff;
+  color: var(--sup-head-color);
 }
 .button-first {
   cursor: pointer;
-  background-color: var(--button-color);
+  background-color: var(--secondar-button-color);
   width: 200px;
   height: 50px;
 }
 .button-first-text {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
+  color: var(--sup-head-color);
 }
 .adv-text {
-  color: #757575;
+  color: var(--text-secondary-color);
 }
 .t-position {
-  color: #757575;
+  color: var(--text-secondary-color);
 }
 .button-second {
   cursor: pointer;
@@ -77,23 +80,18 @@ body {
   width: 73px;
   height: 38px;
 }
-.button-second-text {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
-}
 .button-third {
   cursor: pointer;
   width: 145px;
   height: 38px;
-}
-.button-third-text {
-  font-style: normal;
-  font-weight: bold;
 }
 .img-doing {
   width: 370px;
 }
 .t-photo {
   width: 270px;
+}
+.cards {
+  width: 370px;
+  height: 294px;
 }
