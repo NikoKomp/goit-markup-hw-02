@@ -18,20 +18,19 @@ a {
   width: 1600;
 }
 .link {
-  color: #757575;
+  color: var(--text-secondary-color);
 }
-
 .link:hover {
-  color: tomato;
+  color: var(--button-color);
 }
 .link:focus {
-  color: palevioletred;
+  color: var(--button-color);
 }
 body {
   background-color: #e5e5e5;
   font-family: var(--primary-fonts), sans-serif;
   font-size: 14px;
-  letter-spacing: 0.3;
+  letter-spacing: 0.03;
   color: var(--text-primary);
 }
 
@@ -43,21 +42,31 @@ body {
   line-height: 31px;
   color: var(--button-color);
 }
+.logo-im-part2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--text-primary);
+}
 .nav-link {
   color: var(--text-primary);
   font-weight: 500;
   line-height: 16px;
 }
-.nav-link1 {
+.nav-link:hover {
   color: var(--button-color);
-  font-weight: 500;
-  line-height: 16px;
+}
+.nav-link:focus {
+  color: var(--button-color);
 }
 .hero-box {
   background: var(--brand-color);
 }
 .sup-header {
   color: var(--sup-head-color);
+  font-weight: 900;
 }
 .button-first {
   cursor: pointer;
@@ -66,6 +75,10 @@ body {
   background: var(--button-color);
 }
 .button-first-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+
   color: var(--sup-head-color);
 }
 .adv-text {
@@ -94,4 +107,16 @@ body {
 .cards {
   width: 370px;
   height: 294px;
+}
+.contact-section {
+  background-color: var(--brand-color);
+}
+.map-link:hover {
+  color: var(--button-color);
+}
+.map-link:focus {
+  color: var(--button-color);
+}
+.map-link {
+  color: var(--sup-head-color);
 }
