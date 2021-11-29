@@ -93,6 +93,10 @@ body {
   width: 73px;
   height: 38px;
 }
+.button-second-text {
+  font-weight: 500;
+  color: var(--sup-head-color);
+}
 .button-third {
   cursor: pointer;
   width: 145px;
