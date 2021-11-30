@@ -78,7 +78,7 @@ body {
   line-height: 1.7;
 }
 .button-second {
-  font-weight: 500;
+  font-weight: bold;
   cursor: pointer;
   background-color: var(--secondar-button-color);
   height: 38px;
@@ -146,6 +146,7 @@ body {
 .type {
   font-size: 16px;
   line-height: 1.87;
+  color: var(--text-secondary-color);
 }
 .nav-links:hover {
   color: var(--button-color);
