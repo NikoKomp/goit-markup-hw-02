@@ -80,6 +80,8 @@ body {
 .button-second {
   font-weight: bold;
   cursor: pointer;
+  font-size: 14px;
+  line-height: 1.14;
   background-color: var(--secondar-button-color);
   height: 38px;
 }
