@@ -14,16 +14,14 @@ ol {
 a {
   text-decoration: none;
 }
-.main-conteiner {
-  width: 1600;
-}
 .link {
   color: var(--text-secondary-color);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
 }
-.link:hover {
-  color: var(--button-color);
-}
-.link:focus {
+.link:hover,
+:focus {
   color: var(--button-color);
 }
 body {
@@ -39,7 +37,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: var(--button-color);
 }
 .logo-im-part2 {
@@ -47,19 +45,8 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: var(--text-primary);
-}
-.nav-link {
-  color: var(--text-primary);
-  font-weight: 500;
-  line-height: 16px;
-}
-.nav-link:hover {
-  color: var(--button-color);
-}
-.nav-link:focus {
-  color: var(--button-color);
 }
 .hero-box {
   background: var(--brand-color);
@@ -67,61 +54,124 @@ body {
 .sup-header {
   color: var(--sup-head-color);
   font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
 }
 .button-first {
   cursor: pointer;
   width: 200px;
   height: 50px;
   background: var(--button-color);
-}
-.button-first-text {
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
-
+  line-height: 1.87;
   color: var(--sup-head-color);
 }
-.adv-text {
-  color: var(--text-secondary-color);
+.adv-head {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .t-position {
   color: var(--text-secondary-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 .button-second {
+  font-weight: bold;
   cursor: pointer;
-  background-color: var(--button-color);
-  width: 73px;
+  font-size: 14px;
+  line-height: 1.14;
+  background-color: var(--secondar-button-color);
   height: 38px;
 }
-.button-third {
-  cursor: pointer;
-  width: 145px;
-  height: 38px;
+.button-second:hover,
+:focus {
+  color: var(--sup-head-color);
+  background-color: var(--button-color);
+}
+.doing {
+  font-size: 36px;
+  line-height: 1.16;
+  font-weight: bold;
 }
 .img-doing {
   width: 370px;
 }
+.team {
+  font-size: 36px;
+  line-height: 1.16;
+  font-weight: bold;
+}
 .t-photo {
   width: 270px;
 }
+.t-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--text-primary);
+}
+.t-post {
+  color: var(--text-secondary-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 .cards {
   width: 370px;
   height: 294px;
 }
-.contact-section {
-  background-color: var(--brand-color);
-}
-.map-link:hover {
-  color: var(--button-color);
-}
-.map-link:focus {
+.map-link:hover,
+:focus {
   color: var(--button-color);
 }
 .map-link {
   color: var(--sup-head-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.contact-section {
+  background-color: var(--brand-color);
+}
+.addres-container {
+  font-style: normal;
 }
 .logo-im-part3 {
   color: var(--sup-head-color);
+}
+.projects {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--text-primary);
+}
+.type {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-secondary-color);
+}
+.nav-links:hover {
+  color: var(--button-color);
+}
+.nav-links:focus {
+  color: var(--button-color);
+}
+.nav-links {
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+}
+.link-footer {
+  color: var(--text-secondary-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.link-footer:focus {
+  color: var(--button-color);
+}
+.link-footer:hover {
+  color: var(--button-color);
 }
  
 .pic{
