@@ -123,3 +123,14 @@ body {
 .logo-im-part3 {
   color: var(--sup-head-color);
 }
+ 
+.pic{
+max-width: 1000px;
+  height: 400px;
+
+  background-color: yellow;
+  background-image: url("https://klike.net/uploads/posts/2019-05/1556708032_1.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
